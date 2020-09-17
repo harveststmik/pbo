@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1600171746 source:c:\users\jacmate\documents\pbo\first\main.cpp
+	<iostream>
+	<string.h>
+

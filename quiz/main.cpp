@@ -8,7 +8,7 @@ class Member {
     void cetakNama() {
         cout << "Nama : " << nama << endl;
     }
-}
+};
 
 int main()
 {
