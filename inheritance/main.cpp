@@ -48,6 +48,7 @@ int main()
     m.makan();
 
     Dosen dsn;
+    dsn.nama = "Joko";
     dsn.makan();
     dsn.mengajar();
 
