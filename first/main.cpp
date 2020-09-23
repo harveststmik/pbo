@@ -17,7 +17,7 @@ public:
     }
 
     void tidur() {
-        cout << nama << " sedang tidur" << endl;
+        cout << nama << uppercase << " sedang tidur" << endl;
     }
 };
 
@@ -30,4 +30,5 @@ int main()
     string makanan = "Nasi Padang";
     o1.makan(makanan);
     o1.makan("Blueberry");
+    o1.tidur();
 }
