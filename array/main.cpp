@@ -35,10 +35,14 @@ void array1d() {
 
 int main()
 {
-
-
     array1d();
     array2d();
+
+    char nama[] = "Johansen";
+
+    nama[0] = 'Y';
+
+    cout << "Nama : " << nama << endl;
 
     return 0;
 }

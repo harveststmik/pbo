@@ -31,7 +31,7 @@ class Mahasiswa : public Member {
     }
 };
 
-class Dosen : public Member {
+class Dosen : protected Member {
     public:
     string nidn;
 
@@ -48,7 +48,7 @@ int main()
     m.makan();
 
     Dosen dsn;
-    dsn.nama = "Joko";
+//    dsn.nama = "Joko";
     dsn.makan();
     dsn.mengajar();
 

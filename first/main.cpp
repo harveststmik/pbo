@@ -31,4 +31,7 @@ int main()
     o1.makan(makanan);
     o1.makan("Blueberry");
     o1.tidur();
+
+    int 65;
+    cout <<
 }
